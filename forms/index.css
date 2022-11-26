@@ -1,0 +1,26 @@
+.form{
+    width: 40%;
+    margin: 0 auto;
+    border: 1px tomato;
+    border-radius: 5px;
+    
+}
+.form > form{
+    margin-top:10rem;
+    display: flex;
+    flex-direction:column ;
+    gap:2rem;
+}
+input:focus{
+    outline: none;
+}
+
+input,button{
+    padding: 1rem;
+    color:#222;
+    border: none;
+    border-bottom: 1px solid #444;
+}
+button{
+    border:1px solid black;
+}
