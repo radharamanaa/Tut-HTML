@@ -1,0 +1,35 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,900&family=Vidaloka&display=swap');
+body, *{
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+.main{
+    margin: 0 auto;
+    border: 2px solid teal;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.item-one{
+    order:1;
+}
+
+
+.item{
+    width: 65ch;
+    padding:2rem;
+    border:2px solid tomato;
+    border-radius: 5px;
+    margin:2rem; 
+    font-size: 1rem;
+}
+.title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.25em;
+}

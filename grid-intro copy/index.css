@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+.grid-item{
+    padding:1rem;
+}
+.grid-one{
+    color: #F5F5FF;
+    background-color: #00005a;
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    font-family: 'Poppins', sans-serif;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+}
+.container{
+    display: grid;
+    grid-template-rows: 100px 1fr 75px;
+    height: 100vh;
+}
+.container >div{
+    padding: 1rem;
+}
+.footer-item{
+    font-size: 2rem;
+}
+.grid-two{
+    color: #F5F5FF;
+    background-color: #00005a;
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    font-family: 'Poppins', sans-serif;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+}
+footer{
+    justify-content: space-between;
+    padding: 1rem;
+    width: 80%;
+    margin: 0 auto;
+    justify-self: end;
+}
+.logo-group{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    justify-content: center;
+    align-items: center;
+}
+.card1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.card2{
+    grid-column-start: 5;
+    grid-column-end: -1;
+}
+.right{
+    grid-column-start: 10;
+    grid-column-end: -1;
+}
+.right > div{
+    padding: 1.25rem;
+}
+.one{
+    width: 64px;
+    height: 64px;
+}
+.flex{
+    display: flex;
+}
+.two {
+    font-size: 2rem;
+    padding-left: 0;
+}
