@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Learn</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <div>
+      <div class="p-16  mx-auto flex items-center justify-center">
+        <form action="" class="border-2 border-indigo-700 p-16 rounded-md" onsubmit="validateForm">
+          <div class="username flex gap-16">
+            <input
+              class="p-2 outline-none  m-4 border-b-2"
+              placeholder="Username"
+              type="text"
+              name=""
+              id="username"
+              maxlength="40"
+              id="username"
+              onkeydown="usernameCh(this)" 
+            />
+          </div>
+          <div class="passw">
+            <input
+              type="password"
+              class="p-2 outline-none m-4 border-b-2"
+              placeholder="Password"
+              name=""
+              id="passw" 
+              onkeydown="passwordCh(this)"
+            />
+          </div>
+          <div class="passw">
+            <button type="submit" class="bg-indigo-700 text-slate-100 p-4">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
